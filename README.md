@@ -1,4 +1,4 @@
-## Wifi_Hack
+## Ahsan Wifi_Hack
 ### Hack WIfi Using Termux! (Requires Root)
 
 <p align="center"><img src="https://i.ibb.co/K74g0SC/hulu.jpg"></p>
@@ -6,7 +6,7 @@
 ### Installation :
 
 ```bash
-apt update && apt upgrade && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw && git clone https://github.com/FakeErrorX/ExWiFi && cd ExWiFi && chmod +x ErrorX.py && sudo python ErrorX.py --help
+apt update && apt upgrade && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw && git clone https://github.com/MDAhsanullah/Ahsanullahwifi && cd Ahsanullahwifi && chmod +x ahsan.py && sudo python ahsan.py --help
 ```
 
 #### Example : `sudo python ErrorX.py -i wlan0 -K`
