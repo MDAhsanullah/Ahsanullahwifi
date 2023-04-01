@@ -1189,12 +1189,12 @@ if __name__ == '__main__':
         except KeyboardInterrupt:
             if args.loop:
                 if input("\n[?] Exit the script (otherwise continue to AP scan)? [N/y] ").lower() == 'y':
-                    print("Aborting…\nStay With\nErrorX")
+                    print("Aborting…\nStay With\nAhsan")
                     break
                 else:
                     args.bssid = None
             else:
-                print("\033[1;91m\n𝙀𝙭𝙞𝙩 𝙁𝙧𝙤𝙢 𝙎𝙘𝙧𝙞𝙥𝙩....\n Ahsan@hacke xit\033[0m")
+                print("\033[1;91m\n𝙀𝙭𝙞𝙩 𝙁𝙧𝙤𝙢 𝙎𝙘𝙧𝙞𝙥𝙩....\n➢sᴛᴀʏ ᴡɪᴛʜ Ahsan™\033[0m")
                 break
 
     if args.iface_down:
