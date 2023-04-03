@@ -1,4 +1,4 @@
-## Ahsan&mamun Wifi_Hack 1
+## Ahsan Wifi_Hack 1
 ### Hack WIfi Using Termux! (Requires Root)
 
 
