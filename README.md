@@ -8,6 +8,9 @@
 ```bash
 apt update && apt upgrade && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw && git clone https://github.com/MDAhsanullah/Ahsanullahwifi && cd Ahsanullahwifi && chmod +x ahsan.py && sudo python ahsan.py --help
 ```
+### Running :
+  ```bash
+  sudo python Ahsanullahwifi/ahsan.py -i wlan0 -K
 
 #### Example : `sudo python ahsan.py -i wlan0 -K`
 
