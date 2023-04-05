@@ -17,6 +17,42 @@ import collections
 import statistics
 import csv
 from typing import Dict
+
+
+def tlogin():
+    os.system('clear')
+    print banner
+    username = raw_input('[\xf0\x9f\x94\x90] \x1b[1;94mTOOL USERNAME: ')
+    if username == 'hacker':
+        os.system('clear')
+        print banner
+        print '[\xe2\x9c\x93]  \x1b[1;91mTOOL USERNAME: ' + username + ' (correct)'
+    else:
+        print '[!] Invalid Username.'
+        time.sleep(1)
+        tlogin()
+    passw = raw_input('[\xf0\x9f\x94\x90]  \x1b[1;94mTOOL PASSWORD: ')
+    if passw == 'wasii':
+        os.system('clear')
+        print banner
+        print '[\xe2\x9c\x93]  \x1b[1;91mTOOL USERNAME: ' + username + ' (correct)'
+        print '[\xe2\x9c\x93]  \x1b[1;91mTOOL PASSWORD: ' + passw + '  (correct)'
+        time.sleep(2)
+    else:
+        print '[!] Invalid Password.'
+        time.sleep(1)
+        tlogin()
+    try:
+        toket = open('login.txt', 'r')
+        os.system('python2 .wasii.py')
+    except (KeyError, IOError):
+        methodlogin()
+    else:
+        print '[!] Invalid Password'
+        time.sleep(1)
+        tlogin()
+
+
 os.system('cls||clear')
 print('''\033[1;92m❥══════════❥ ↓★↑Cᴏᴅᴇ↓★↑BY↓★↑Ahsanullah↓★❥══════════❥
 \033[0m
