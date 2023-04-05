@@ -10,7 +10,8 @@ apt update && apt upgrade && pkg install -y root-repo && pkg install -y git tsu 
 ```
 ### Running :
   ```bash
-  sudo python Ahsanullahwifi/ahsan.py -i wlan0 -K
+  sudo python Ahsanullahwifi/ahsan.py -i wlan0 -K 
+  ```
 
 #### Example : `sudo python ahsan.py -i wlan0 -K`
 
