@@ -3,41 +3,6 @@
 #Open Source Code.No Need More Modification.
 #Code by Errorvai
 
-def tlogin():
-    os.system('clear')
-    print banner
-    username = raw_input('[\xf0\x9f\x94\x90] \x1b[1;94mTOOL USERNAME: ')
-    if username == 'ahsan':
-        os.system('clear')
-        print banner
-        print '[\xe2\x9c\x93]  \x1b[1;91mTOOL USERNAME: ' + username + ' (correct)'
-    else:
-        print '[!] Invalid Username.'
-        time.sleep(1)
-        tlogin()
-    passw = raw_input('[\xf0\x9f\x94\x90]  \x1b[1;94mTOOL PASSWORD: ')
-    if passw == '32606171@':
-        os.system('clear')
-        print banner
-        print '[\xe2\x9c\x93]  \x1b[1;91mTOOL USERNAME: ' + username + ' (correct)'
-        print '[\xe2\x9c\x93]  \x1b[1;91mTOOL PASSWORD: ' + passw + '  (correct)'
-        time.sleep(2)
-    else:
-        print '[!] Invalid Password.'
-        time.sleep(1)
-        tlogin()
-    try:
-        toket = open('login.txt', 'r')
-        os.system('python2 .wasii.py')
-    except (KeyError, IOError):
-        methodlogin()
-    else:
-        print '[!] Invalid Password'
-        time.sleep(1)
-        tlogin()
-
-
-
 import sys
 import subprocess
 import os
