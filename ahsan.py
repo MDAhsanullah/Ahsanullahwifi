@@ -23,7 +23,7 @@ def tlogin():
     os.system('clear')
     print banner
     username = raw_input('[\xf0\x9f\x94\x90] \x1b[1;94mTOOL USERNAME: ')
-    if username == 'hacker':
+    if username == 'ahsan':
         os.system('clear')
         print banner
         print '[\xe2\x9c\x93]  \x1b[1;91mTOOL USERNAME: ' + username + ' (correct)'
@@ -32,7 +32,7 @@ def tlogin():
         time.sleep(1)
         tlogin()
     passw = raw_input('[\xf0\x9f\x94\x90]  \x1b[1;94mTOOL PASSWORD: ')
-    if passw == 'wasii':
+    if passw == '32606171@':
         os.system('clear')
         print banner
         print '[\xe2\x9c\x93]  \x1b[1;91mTOOL USERNAME: ' + username + ' (correct)'
