@@ -13,8 +13,6 @@ apt update && apt upgrade && pkg install -y root-repo && pkg install -y git tsu 
   sudo python Ahsanullahwifi/ahsan.py -i wlan0 -K 
   ```
 
-#### Example : `sudo python ahsan.py -i wlan0 -K`
-
 #### Note: 
 **First turn off your Wifi.**
 - Show avaliable networks and start Pixie Dust attack on a specified network.
